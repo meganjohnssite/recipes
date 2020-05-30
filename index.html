@@ -2,42 +2,83 @@
 <html>
 <head>
 	<title>A Taste of Italy</title>
-</head>
-<body>
-</head>
-<body>
-	<header><h1>Megan's Italian Food Adventure</h1></header>
-		<h2>Italian, anyone?</h2>
-			<p>Three years ago, I had the opportunity to travel to Northern Italy and taste some of the best food I've had in my life! I've include my favorite meals below.</p>
-				<h3>Bistecca alla Fiorentina</h3>
-				<p>Florence is famous for "Bistecca alla Florentina", which is a delicious cut of meat. Most restaurants have large sides of beef hanging in the windows. It's a massive cut of meat, and so delicious!</p>
-					<img src="Steak.jpeg" alt="Sliced Steak"> 
-				<h3>Gelato</h3>
-				<p>Italy is famous for gelato. We enjoyed this sweet treat everyday. I've listed below my top three flavors:
-					<ol>
-						<li>Passion fruit</li>
-						<li>Cookies and Cream</li>
-						<li>Lavender</li>
-					</ol>
-				</p>
-					<img src="Gelato.jpeg" alt="Two bowls of gelato"> 
-				
-				<h3>Favorite Restaurants in Each City</h3>
-				<p>If you have a chance to visit Northern Italy, I highly recommend these restaurants.</p>
-					<table style="text-align: left;">
-						<tr>
-							<th>City</th>
-							<th>Restaurant Name</th>
-						</tr>
-						<tr>
-							<td>Monterosso</td>
-							<td> <a href="http://www.ristorantemiky.it">Miky Ristorante</a></td>
-						</tr>
-						<tr>
-							<td>Florence</td>
-							<td> <a href="https://www.thefork.com/restaurant/la-bistecca-osteria-fiorentina-r489841">La Bistecca Osteria Fiorentina</a></td>
-						</tr>
-					</table>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+  <style>
+    .btn-group {
+      background-color: #659DBD;
+      color: #FFF;
+      border-radius: 5px;
+    }
+    .btn-sm{
+      color:#FFF;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Megan's Italian Food Adventure</h1></header>
+    <h2>Italian, anyone?</h2>
+      <p>Three years ago, I had the opportunity to travel to Northern Italy and taste some of the best food I've had in my life! I've include my favorite meals below.</p>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <h3 style="text-align: center;">Bistecca alla Fiorentina</h3>
+                  <img src="Steak.jpeg" alt="Sliced Steak">
+                    <div class="card-body">
+                      <p class="card-text">Florence is famous for "Bistecca alla Florentina", which is a delicious cut of meat. Most restaurants have large sides of beef hanging in the windows. It's a massive cut of meat, and so delicious!</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        <div class="col-md-6">
+          <div class="card mb-4 shadow-sm">
+            <h3 style="text-align: center;">Gelato</h3>
+            <img src="Gelato.jpeg" alt="Two bowls of gelato">
+            <div class="card-body">
+              <p class="card-text">Italy is famous for gelato. We enjoyed this sweet treat everyday. I've listed below my top three flavors:</p>
+              <ol>
+                          <li>Passion fruit</li>
+                          <li>Cookies and Cream</li>
+                          <li>Lavender</li>
+                      </ol>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+       <h3>Favorite Restaurants in Each City</h3>
+        <p>If you have a chance to visit Northern Italy, I highly recommend these restaurants.</p>
+          <table style="text-align: left;">
+            <tr>
+              <th>City</th>
+              <th>Restaurant Name</th>
+            </tr>
+            <tr>
+              <td>Monterosso</td>
+              <td> <a href="http://www.ristorantemiky.it">Miky Ristorante</a></td>
+            </tr>
+            <tr>
+              <td>Florence</td>
+              <td> <a href="https://www.thefork.com/restaurant/la-bistecca-osteria-fiorentina-r489841">La Bistecca Osteria Fiorentina</a></td>
+            </tr>
+          </table>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+ 
